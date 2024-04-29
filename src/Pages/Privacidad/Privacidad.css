@@ -1,0 +1,198 @@
+.cont-prin-privacidad {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.cont-header-privacidad {
+  width: 100%;
+  height: 80px;
+  background: rgb(249, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.cont-btn-back {
+  width: 15%;
+  height: 100%;
+  /* background: red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cont-btn-back > a {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #05813751;
+  border-radius: 6px;
+  display: flex;
+  transition: 0.5s;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none !important;
+}
+
+.cont-btn-back > a:hover {
+  transition: 0.5s;
+  background: #058137;
+}
+
+.cont-btn-back > a > i {
+  color: black;
+}
+
+.cont-btn-back > a:hover i {
+  transition: 0.5s;
+  color: rgb(255, 255, 255) !important;
+}
+
+.cont-logo-privacidad {
+  width: 85%;
+  height: 100%;
+  /* background: rgb(248, 98, 98); */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cont-logo-privacidad > div {
+  width: 90px;
+  height: 100%;
+  /* background: black; */
+  overflow: hidden;
+}
+
+.cont-logo-privacidad > div > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cont-text-privacidad {
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.cont-title-privacidad {
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  overflow: hidden;
+}
+
+.cont-title-privacidad > h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cont-title-privacidad > p {
+  font-size: 20px;
+  color: grey;
+  font-weight: 550;
+}
+
+.idioma-all-privacidad {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.idioma-all-privacidad > h4 {
+  font-size: 20px;
+}
+
+.idioma-all-privacidad > h5 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cont-parrafos-privacidad {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.footer-back-privacidad {
+  width: 100%;
+  height: 60px;
+  padding-top: 8px;
+  background: rgb(249, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.footer-back-privacidad > h2 {
+  font-size: 15px;
+}
+
+/*  */
+
+@media (max-width: 900px) {
+  .cont-header-privacidad {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .cont-text-privacidad {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footer-back-privacidad {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 515px) {
+  .cont-text-privacidad {
+  }
+}
+
+@media (max-width: 400px) {
+  .cont-header-privacidad {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .cont-text-privacidad {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-back-privacidad {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

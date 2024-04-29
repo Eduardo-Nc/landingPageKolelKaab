@@ -1,0 +1,231 @@
+.cont-prin-data-user {
+  padding: 20px;
+  margin: 15px;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cont-header-edit-profile {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.cont-img-name-email-user {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cont-img-profile {
+  height: 90%;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.cont-img-profile > img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.cont-prin-name-email-user {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 15px;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.cont-prin-name-email-user > h4 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #606060;
+}
+
+.cont-prin-name-email-user > label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #8d8888;
+}
+
+.cont-input-user {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cont-input-user > div {
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(73, 73, 255);
+}
+
+.cont-input-user > div > label {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cont-body-dash-users {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  overflow-y: auto;
+  /* background-color: red; */
+}
+
+.cont-body-dash-users > strong {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cont-div-inputs {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.cont-div-inputs > div {
+  width: 48%;
+  min-height: 70px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: green; */
+}
+
+.cont-div-inputs > div > label {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.cont-div-inputs > div > input,
+input[type="email"],
+select {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  color: #000000;
+  border-radius: 5px;
+  background-color: #f5f0f0;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+
+.cont-div-inputs > div > input::placeholder {
+  font-size: 16px;
+  color: #bcb7b7;
+  font-weight: 400;
+  text-transform: none;
+}
+
+@media (max-width: 600px) {
+  .cont-header-edit-profile {
+    height: 25%;
+    flex-flow: column;
+  }
+
+  .cont-img-name-email-user {
+    width: 100%;
+    height: 65%;
+    justify-content: center;
+  }
+
+  .cont-img-profile {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .cont-img-profile > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .cont-prin-name-email-user {
+    width: 300px;
+  }
+
+  .cont-input-user {
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+  }
+
+  .cont-div-inputs {
+    width: 100%;
+    min-height: 140px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont-div-inputs > div {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: green; */
+  }
+
+  .cont-div-inputs > div > input,
+  input[type="email"],
+  select {
+    margin-bottom: 20px;
+    height: 50px !important;
+  }
+}

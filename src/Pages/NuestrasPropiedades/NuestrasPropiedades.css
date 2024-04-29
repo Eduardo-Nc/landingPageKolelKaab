@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css";
+
+.cont-div1-main-nuestrasPropiedades {
+  width: 100vw;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #fff;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.cont-div1-main-nuestrasPropiedades > h1 {
+  margin-top: 135px;
+  font-weight: 600;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.cont-search-container-nuestras-propiedades {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* background-color: blue; */
+  /* overflow: hidden; */
+}
+
+.cont-search-container-nuestras-propiedades > a {
+  width: 45px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: rgb(60, 80, 183);
+  overflow: hidden;
+}
+
+.cont-search-container-nuestras-propiedades > a > img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.cont-search-container-nuestras-propiedades > input[type="text"] {
+  width: 50%;
+  height: 45px;
+  border-radius: 100px;
+  font-size: 17px;
+  padding-left: 20px;
+  background-color: #ffffff;
+  border: 0.5px solid rgba(31, 31, 31, 0.075);
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+}
+
+.cont-search-container-nuestras-propiedades-btn-buscar {
+  margin-top: 30px;
+  width: 100%;
+  height: 130px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* background-color: yellow; */
+  /* overflow: hidden; */
+}
+
+.cont-search-container-nuestras-propiedades-btn-buscar > div {
+  width: 270px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 100px;
+  color: white;
+  font-size: 16px;
+}
+
+.cont-search-container-nuestras-propiedades-btn-buscar > div:hover {
+  cursor: pointer;
+}
+
+/* .cont-div2-main-nuestrasPropiedades {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #b90000;
+} */
+
+.cont-item-nuestras-propiedades-main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  overflow-y: scroll;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  margin-top: 20px;
+  margin-bottom: 35px;
+
+  /* background-color: #b90000; */
+}
+
+.cont-item-caratula_propiedad-item {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+}
+
+.cont-item-caratula_propiedad-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cont-item-caratula_propiedad-item-ubicacion {
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: red; */
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cont-item-caratula_propiedad-item-ubicacion > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.cont-item-caratula_propiedad-item-ubicacion > div > img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.cont-item-caratula_propiedad-item-ubicacion > strong {
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+  font-size: 15.5px;
+}
+
+.cont-item-caratula_propiedad-item-ubicacion > label {
+  margin-left: 5px;
+  font-weight: normal;
+  color: black;
+  font-size: 14.5px;
+}
+
+.cont-item-caratula_propiedad-item-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: red; */
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cont-item-caratula_propiedad-item-title > label {
+  margin-left: 5px;
+  font-weight: 600;
+  color: #022a51;
+  font-size: 20px;
+}
+/*  */
+
+.cont-item-caratula_propiedad-item-etiqueta {
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: red; */
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cont-item-caratula_propiedad-item-etiqueta > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.cont-item-caratula_propiedad-item-etiqueta > div > img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.cont-item-caratula_propiedad-item-etiqueta > label {
+  margin-left: 1px;
+  font-weight: normal;
+  color: black;
+  font-size: 14.5px;
+}
+
+/*  */
+
+.cont-item-nuestras-propiedades {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: 0.6px solid rgba(92, 92, 92, 0.224);
+  box-shadow: 0.5px 0.5px 0.1px rgb(0 0 0 / 0.1);
+}
+
+.cont-item-detalles-item-folio-tipo-propiedad {
+  width: 100%;
+  min-height: 30px;
+  max-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: red; */
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.cont-item-detalles-item-folio-tipo-propiedad > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: green; */
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+
+.cont-item-detalles-item-folio-tipo-propiedad > div > .cont-item-logo {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  /* background-color: yellow; */
+}
+
+.cont-item-detalles-item-folio-tipo-propiedad > div > div > img {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+}
+
+.cont-item-detalles-item-folio-tipo-propiedad > div > div > label {
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+/*  */
+.cont-item-detalles-item-metros-precio-propiedad {
+  width: 100%;
+  min-height: 30px;
+  max-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: blue; */
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.cont-item-detalles-item-metros-precio-propiedad > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: green; */
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+
+.cont-item-detalles-item-metros-precio-propiedad > div > .cont-item-logo {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  /* background-color: yellow; */
+}
+
+.cont-item-detalles-item-metros-precio-propiedad > div > div > img {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+}
+
+.cont-item-detalles-item-metros-precio-propiedad > div > div > label {
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 970px) {
+  .cont-item-nuestras-propiedades {
+    width: 45%;
+  }
+
+  .cont-item-nuestras-propiedades-main {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cont-div1-main-nuestrasPropiedades {
+    height: 190vh;
+  }
+
+  .cont-search-container-nuestras-propiedades > input[type="text"] {
+    width: 80%;
+  }
+
+  .cont-search-container-nuestras-propiedades {
+    height: 90px !important;
+  }
+  .cont-search-container-nuestras-propiedades-btn-buscar {
+    height: 80px !important;
+  }
+
+  .cont-item-nuestras-propiedades-main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .cont-item-nuestras-propiedades {
+    width: 46%;
+  }
+}
+
+@media (max-width: 652px) {
+  .cont-div1-main-nuestrasPropiedades {
+    height: 230vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .cont-item-nuestras-propiedades-main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .cont-div1-main-nuestrasPropiedades > h1 {
+    width: 90%;
+  }
+
+  .cont-item-nuestras-propiedades {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cont-div1-main-nuestrasPropiedades {
+    height: 250vh;
+  }
+
+  .cont-search-container-nuestras-propiedades > input[type="text"] {
+    width: 90%;
+  }
+
+  .cont-search-container-nuestras-propiedades {
+    height: 80px !important;
+  }
+  .cont-search-container-nuestras-propiedades-btn-buscar {
+    height: 60px !important;
+  }
+
+  .cont-item-nuestras-propiedades {
+    width: 95%;
+  }
+}

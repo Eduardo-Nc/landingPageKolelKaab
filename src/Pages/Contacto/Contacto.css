@@ -1,0 +1,277 @@
+.cont-div1-main-contacto {
+  width: 100vw;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #fff;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.cont-div1-main-contacto-header-map {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9;
+}
+
+.cont-main-form-contacto {
+  flex-direction: row;
+  margin-top: -110px;
+  border: 0.5px solid rgba(0, 0, 0, 0.121);
+  width: 75%;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  z-index: 10;
+  box-shadow: 5px 5px 5px 5px #00000046;
+  overflow: hidden;
+}
+
+.cont-div1-form-contacto {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #15003c; */
+}
+
+.contenedor-formulario-contacto {
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* background-color: #4cb012; */
+}
+
+.contenedor-formulario-contacto > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* background-color: #4cb012; */
+}
+
+.contenedor-formulario-contacto > strong {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cont-name-cel-form {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont-name-cel-form > input[type="text"] {
+  width: 48.5%;
+  height: 40px;
+  border: 1px solid #d7d7d7;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.cont-name-cel-form > select {
+  width: 48.5% !important;
+  height: 40px !important;
+  border: 1px solid #d7d7d7;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.cont-name-cel-form > input[type="email"] {
+  width: 48.5% !important;
+  height: 40px !important;
+  border: 1px solid #d7d7d7;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.cont-form-contacto-textarea {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #d7d7d7;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: white;
+  outline: none;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.contenedor-input-contacto {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-input-contacto > input[type="submit"] {
+  margin-top: 50px;
+  background: #022a51 !important;
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.cont-div2-form-contacto {
+  padding: 40px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #15003c;
+}
+
+.cont-div2-form-contacto > h3 {
+  margin-top: 5px;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+.cont-div2-form-contacto > a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.cont-div2-form-contacto > a:hover {
+  color: #c9a857;
+}
+
+@media (max-width: 950px) {
+  .cont-div1-form-contacto {
+    width: 60%;
+  }
+  .cont-div2-form-contacto {
+    width: 40%;
+  }
+}
+
+@media (max-width: 765px) {
+  .cont-div1-form-contacto {
+    width: 55%;
+  }
+  .cont-div2-form-contacto {
+    width: 45%;
+  }
+}
+
+@media (max-width: 667px) {
+  .cont-div1-form-contacto {
+    width: 100%;
+  }
+  .cont-div2-form-contacto {
+    width: 100%;
+  }
+
+  .cont-main-form-contacto {
+    flex-direction: column;
+    margin-top: -140px;
+    width: 90%;
+    height: auto;
+  }
+
+  .cont-name-cel-form {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  .cont-name-cel-form {
+    margin-top: 30px;
+    width: 100%;
+    height: 130px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: red; */
+  }
+
+  .cont-name-cel-form > input[type="text"] {
+    width: 100%;
+    height: 60px !important;
+    border: 1px solid #d7d7d7;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .cont-name-cel-form > select {
+    width: 100% !important;
+    height: 60px !important;
+    border: 1px solid #d7d7d7;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .cont-name-cel-form > input[type="email"] {
+    width: 100% !important;
+    height: 60px !important;
+    border: 1px solid #d7d7d7;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .contenedor-input-contacto {
+    margin-top: 0px;
+    height: 40px;
+  }
+
+  .contenedor-input-contacto > input[type="submit"] {
+    width: 100%;
+    height: 45px;
+  }
+}

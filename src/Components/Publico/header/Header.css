@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.cont-header-main-home {
+  z-index: 50;
+  position: absolute !important;
+  top: 45px;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #022a51d8;
+}
+
+.container-pre-header-redes {
+  z-index: 50;
+  position: absolute;
+  top: 0px;
+  padding-top: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #022a51d8;
+}
+
+.container-div1-text {
+  padding-left: 40px;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: #002142d5; */
+}
+
+.container-div1-text > a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.container-div1-text > a:hover {
+  color: #c9a857;
+}
+
+.container-div2-redes-search {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #683b06d5; */
+}
+
+.container-div2-redes {
+  padding-left: 20px;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #0024b3d5; */
+}
+
+.container-div2-redes > a {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #53575bd5; */
+  overflow: hidden;
+}
+
+.container-div2-redes > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container-div2-redes > a > img:hover {
+  border: 1px solid #022a51d5;
+  border-radius: 100px;
+}
+
+.container-div2-serach {
+  padding-right: 40px;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: #00575ed5; */
+}
+
+.container-search-text-input {
+  width: 65%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.container-search-text-input > a {
+  margin-left: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cont-inputSearch {
+  background-color: rgb(255, 255, 255) !important;
+  width: 90% !important;
+  font-size: 16px !important;
+}
+
+.container-search-text-input > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cont-logo-header {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #000000; */
+  /* overflow: hidden; */
+}
+
+.cont-logo-header > a {
+  text-decoration: none;
+  width: 100%;
+  height: 70px;
+  /* background-color: red; */
+}
+
+.cont-logo-header > a > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.cont-menu-mobile-display {
+  display: none;
+}
+
+.cont-menu-monitor-display {
+  padding-right: 50px;
+  width: 82%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: #d84b4b; */
+  /* overflow: hidden; */
+}
+
+.contenedor-menu-navbar-inicio {
+  min-width: 40px;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #1c1a1a; */
+  /* overflow: hidden; */
+  cursor: pointer;
+}
+
+.contenedor-menu-navbar-inicio > a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+.menu-selec-desk {
+  border-bottom: 3px solid #c9a857;
+}
+
+.menu-selec-desk > .nav-item-navmenu {
+  color: #c9a857;
+}
+
+.nav-item-navmenu {
+  cursor: pointer;
+}
+
+.contenedor-menu-navbar-inicio > a:hover {
+  color: #c9a857 !important;
+  transition: all 0.5s;
+}
+
+.contenedor-menu-navbar-inicio > a > label:hover {
+  color: #c9a857 !important;
+  transition: all 0.5s;
+}
+
+@media (max-width: 950px) {
+  .container-search-text-input {
+    width: 90%;
+  }
+
+  .cont-menu-monitor-display {
+    display: none;
+  }
+
+  .cont-logo-header {
+    width: 40%;
+  }
+
+  .cont-menu-mobile-display {
+    padding-right: 10px;
+    padding-bottom: 1px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: #d84b4b; */
+    /* overflow: hidden; */
+  }
+
+  .cont-menu-mobile-display > div {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    /* background-color: #c11111; */
+    /* overflow: hidden; */
+  }
+
+  .cont-menu-mobile-display > div > img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .cont-menu-mobile-display > div:hover {
+    background-color: #c9a857;
+  }
+}
+
+@media (max-width: 700px) {
+  .container-div1-text {
+    display: none;
+  }
+
+  .container-div2-redes-search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #683b06d5; */
+  }
+
+  .container-div2-serach {
+    padding-right: 20px;
+  }
+
+  .container-pre-header-redes {
+    position: absolute;
+    top: 0px;
+    padding-top: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-div2-serach {
+    padding-right: 0px;
+    width: 90%;
+  }
+  .container-div2-redes {
+    display: none;
+  }
+
+  .cont-inputSearch {
+    text-align: center;
+    margin-right: 25px;
+  }
+
+  .container-search-text-input {
+    width: 100%;
+  }
+}
