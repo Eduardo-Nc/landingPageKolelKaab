@@ -11,6 +11,7 @@ const Index = () => {
   return (
     <div id="page-3" className='mainContServicios'>
       <h2>Servicios</h2>
+      <div className='borderDecoradorServicios'></div>
       <p>Permítenos guiarte, te acompañamos de principio a fin</p>
 
       <div className='main-cont-servicios-kolel'>

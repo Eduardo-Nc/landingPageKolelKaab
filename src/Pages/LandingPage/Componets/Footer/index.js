@@ -36,9 +36,9 @@ const Index = () => {
             >
               999-129-5931
             </a>
-            <a href="mailto:info@koolelkaab.com.mx"
+            <a href="mailto:inmobiliaria.koolel.kaab@gmail.com"
             >
-              info@koolelkaab.com.mx
+              inmobiliaria.koolel.kaab@gmail.com
             </a>
           </div>
         </div>

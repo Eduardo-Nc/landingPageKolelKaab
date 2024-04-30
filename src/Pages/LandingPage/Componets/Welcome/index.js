@@ -1,11 +1,8 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import './styles.css';
 
-import Depas from "../../../../img/depas.png"
 import Logo from "../../../../imagenes/NavLogos.png"
 import FlechaAbajo from "../../../../img/flechaAbajo.png"
-
-
 
 const Index = () => {
 
@@ -23,9 +20,9 @@ const Index = () => {
         <p className='animate__animated animate__flipInX'>Comprometidos para ayudar a
           invertir en los
           desarrollos inmobiliarios sobresalientes del sureste</p>
-        <div className="cont-contactanos-welcolme animate__animated animate__flipInX">
+        <a href="https://api.whatsapp.com/message/L2OKG5XKUZBNG1" target="_blank" className="cont-contactanos-welcolme animate__animated animate__flipInX">
           <h3>Contáctanos</h3>
-        </div>
+        </a>
         <div className="cont-arrow-welcolme animate__animated animate__flipInX">
           <a href="#page-1" ><img src={FlechaAbajo} /></a>
         </div>

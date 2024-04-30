@@ -29,6 +29,7 @@ const Index = () => {
 
       <div className='contMenuHeaderMovil'>
         {/* <img src={Menu} className='imgMenu' /> */}
+        {/* <NavLink onClick={() => { window.scrollTo(0, 0) }} to={"/login"} activeClassName="navLinkHeaderActive" className="navLinkHeader animate__animated animate__fadeInLeft animate__animated animate__fadeInRight"> <label>Iniciar Sesión</label> </NavLink> */}
       </div>
 
     </div>

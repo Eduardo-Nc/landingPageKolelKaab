@@ -90,5 +90,7 @@
     height: 30px;
     object-fit: contain;
     user-select: none;
+    cursor: pointer;
+    user-select: none;
   }
 }

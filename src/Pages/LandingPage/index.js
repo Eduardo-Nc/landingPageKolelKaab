@@ -6,6 +6,7 @@ import Header from './Componets/Header'
 import Welcome from './Componets/Welcome'
 import QuienesSomos from './Componets/QuienesSomos'
 import Servicios from './Componets/Servicios'
+import Propiedades from './Componets/Propiedades'
 import Contacto from './Componets/Contacto'
 import Footer from './Componets/Footer'
 
@@ -23,6 +24,7 @@ const LandingPage = () => {
         <Welcome />
         <QuienesSomos />
         <Servicios />
+        <Propiedades />
         <Contacto />
         <Footer />
       </div>

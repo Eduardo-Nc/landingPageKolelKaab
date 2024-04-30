@@ -129,6 +129,7 @@ const Index = () => {
     <div className='mainContainerContacto'>
 
       <h3>CONTÁCTANOS</h3>
+      <div className='borderDecoradorContacto'></div>
       <p>QUEREMOS SABER DE TI</p>
 
       <div className="cont-div1-form-contacto">
